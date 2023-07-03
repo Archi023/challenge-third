@@ -11,3 +11,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.card:hover{
+  background-color:rgb(242, 241, 241);
+  transform: scale(1.1); 
+}
+.card{
+  transition: all 0.3s;
+}
